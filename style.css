@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2a2e37;
+}
+
+h2 {
+  font-family: "Sen", sans-serif;
+  color: #00fede;
+  text-align: center;
+}
+
+#chartContainer {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+  margin: 1%;
+}
+
+.bar {
+  width: 10vw;
+  background-color: #00fede;
+  border-radius: 1vw;
+  margin-right: 1%;
+}
